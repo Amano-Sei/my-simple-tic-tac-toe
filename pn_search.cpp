@@ -125,9 +125,10 @@ unsigned solve(unsigned pad){
             fprintf(stderr, "unbelievable...\n");
             exit(-1);
         }
-        puts("can't always win...");
-    }else
-        puts("i can win...");
+        //puts("can't always win...");
+    }
+    //else
+    //    puts("i can win...");
     for(int i = 0; i < root->clen; i++)
         if((root->chd[i]).pn == 0){
             pad = (root->chd[i]).pad;
